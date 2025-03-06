@@ -1,0 +1,443 @@
+
+.topIcon i{
+    font-size: 2.6rem;
+    color: var(--secondaryColor);
+}
+
+.topIcon2 i{
+    font-size: 1.6rem;
+    color: var(--secondaryColor);
+}
+
+.topBoxFont1{
+    font-family: var(--ffTertiary);
+    color: var(--primaryColor);
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.topBoxFont2{
+    font-family: var(--ffPrimary);
+    color: var(--primaryColor);
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.topBox2{
+    padding-left: 15rem !important;
+}
+
+.Logo{
+    width: 100%;
+    height: 8.2rem;
+}
+
+.navBox{
+    width: 70%;
+    /* margin: auto; */
+}
+
+.nav{
+    font-family: var(--ffPrimary);
+    color: var(--primaryColor) !important;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: -0.15px;
+    text-transform: uppercase;
+}
+
+.navButtonBox{
+    padding-right: 3rem;
+}
+
+.talkButton{
+    padding: 1.5rem 3rem;
+    background-color: var(--primaryColor);
+    font-family: var(--ffPrimary);
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--whiteColor);
+    border-radius: 18px;
+}
+
+.heroSection {
+    background: linear-gradient(to bottom, var(--heroColor) , var(--blueColor));
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.heroH1{
+    margin-top: 0.3rem;
+    font-family: var(--ffPrimary);
+    font-size: 3.9rem;
+    font-weight: 700;
+    color: var(--whiteColor);
+    line-height: 42.9px;
+    text-align: left;
+    letter-spacing:-1px;
+    margin-bottom: 4.5rem;
+}
+
+.heroH1-2{
+    margin-bottom: 4rem;
+}
+
+.heroPara{
+    font-family: var(--ffTertiary);
+    font-size: 1.6rem;
+    /* font-weight: 700; */
+    color: var(--whiteColor);
+    line-height: 24px;
+    text-align: start;
+    margin-bottom: 3.5rem;
+}
+
+.heroForm{
+    background-color: var(--whiteColor);
+    padding: 3.5rem 1.8rem;
+    width: 70%;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.8) 10px 7px 0px 0px;
+}
+
+/* .formLine{
+    width: 50%;
+    height: 2rem;
+    color: var(--yellowColor);
+} */
+.heroButton{
+    padding: 1.5rem 3rem;
+    background-color: var(--primaryColor);
+    font-family: var(--ffPrimary);
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--whiteColor);
+    border-radius: 18px;
+    width: 100%;
+}
+
+.form-control{
+    padding: 2.5rem !important;
+    border-radius: 18px;
+    width: 100% !important;
+}
+
+.form-control::placeholder{
+    font-size: 1.6rem;
+    color: var(--heroParaColor);
+}
+
+.btn:hover{
+    background-color: var(--secondaryColor);
+    color: var(--whiteColor);
+}
+
+.heroImageBox img{
+    height: 17rem !important;
+    width: 100% !important;
+    border-radius: 30px;
+    box-shadow: rgba(34, 22, 119, 0.36) 0px 14px 16px 0px
+}
+
+.heroImageBlock{
+    position: relative;
+}
+
+.heroImageBox{
+   position: relative;
+   right: -10rem;
+   top: 15.2rem;
+}
+
+.vendorSection{
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.subHeadingFont{
+    font-family: var(--ffPrimary) !important;
+    font-weight: 700 !important;
+    color: var(--primaryColor) !important;
+    font-size: 1.6rem !important;
+}
+
+.headingFont{
+    font-family: var(--ffPrimary);
+    font-size: 4.8rem;
+    font-weight: 700;
+    color: var(--primaryColor);
+}
+
+
+.regularFont{
+    color: var(--paraFontColor);
+    font-family: var(--ffSecondary);
+    font-size: 1.33rem;
+    line-height: 24px;
+}
+
+.spanText{
+    color: var(--primaryColor);
+    font-family: var(--ffQuanternary);
+    font-weight: 700;
+}
+
+.componentSpacing{
+    padding: 6rem 0rem;
+}
+
+.vendorImage{
+    padding-right: 5rem;
+    padding-left: 1.5rem;
+}
+
+.aboutBoxPara{
+    padding-left: 10.5rem;
+}
+
+.aboutButton{
+    padding: 1.5rem;
+    background-color: var(--blueColor);
+    font-family: var(--ffPrimary);
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 37px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 10px 0px;
+}
+
+.aboutParaBox{
+    padding-left: 6rem;
+}
+
+.aboutList{
+    padding-left: 2.5rem;
+}
+
+.card i{
+    font-size: 5rem;
+    border: 3.5px solid var(--secondaryColor);
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    color: var(--secondaryColor);
+}
+
+.discoveryCardfont{
+    font-size: 2.4rem;
+    font-weight: 600;
+    /* font-family: var(--ffSecondary); */
+    color: var(--primaryColor);
+}
+
+.clientsSection{
+    background: linear-gradient(to bottom, #E9E6FF, #FCFCFF);
+    border-radius: 40px 40px 0px 0px;
+}
+.clientButtonBox button{
+    box-shadow: rgba(23, 37, 228, 0.98) 0px 0px 10px 0px;
+    border-radius: 18px;
+}
+
+.clientBody{
+    background-color: var(--bodyColor);
+    padding: 6rem 4rem !important;
+    margin: 1.5rem !important;
+    border-radius: 40px;
+}
+
+.clientIconBox{
+    list-style: none;
+}
+
+.clientIconBox i{
+    color: var(--secondaryColor);
+}
+
+
+.clientForm{
+    background-color: var(--whiteColor);
+    padding: 3.5rem 1.8rem;
+    width: auto;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.8) 10px 7px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
+
+/* for Responsive Target the ROW Code (display:grid) */
+
+
+/* Small devices (landscape phones, upto 576px and below) */
+/* @media (width <=576px) */
+@media (max-width: 576px) {
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+      grid-template-columns: 1fr;
+    }
+
+    .headingFont{
+        font-size: 2.8rem;
+        font-weight: 700;
+    }
+
+    .heroImageBlock{
+        position: static;
+        padding: 1rem;
+    }
+    
+    .heroImageBox{
+       position: static;
+    }
+
+    .heroImageBox img{
+        max-width: 100% !important;
+        height: auto !important;
+    }
+    .heroImageBox :nth-child(1){
+        margin-bottom: 3rem;
+    }
+
+    .heroImageBox :nth-child(2){
+        margin-bottom: 3rem;
+    }
+
+    .aboutBoxPara{
+        padding-left: 0rem;
+    }
+    
+    .aboutParaBox{
+        padding-left: 0rem;
+    }
+
+    .clientIconBox li{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .clientForm{
+        width: 100% !important;
+    }
+    
+  }
+  
+  /* Medium devices (tablets, upto 768px and above) */
+  /* @media (min-width: 577px) and (max-width: 768px) */
+  @media (width >=577px) and (width <=768px) {
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+      grid-template-columns: 1fr;
+    }
+
+    .headingFont{
+        font-size: 3.5rem !important;
+        font-weight: 700;
+    }
+
+    .heroImageBlock{
+        position: static;
+        padding: 1rem;
+    }
+    
+    .heroImageBox{
+       position: static;
+    }
+
+    .heroImageBox img{
+        max-width: 100% !important;
+        height: auto !important;
+    }
+    .heroImageBox :nth-child(1){
+        margin-bottom: 3rem;
+    }
+
+    .heroImageBox :nth-child(2){
+        margin-bottom: 3rem;
+    }
+
+    .aboutBoxPara{
+        padding-left: 0rem !important;
+    }
+
+    .aboutParaBox{
+        padding-left: 0rem !important;
+    }
+
+  }
+  
+  /* Large devices (Laptops, upto 992px and above) */
+  /* @media (min-width: 769px) and (max-width: 992px) */
+  @media (width >=769px) and (width <=992px) {
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .heroImageBlock{
+        position: static;
+        padding: 1rem;
+    }
+    
+    .heroImageBox{
+       position: static;
+    }
+
+    .heroImageBox img{
+        max-width: 100% !important;
+        height: auto !important;
+    }
+    .heroImageBox :nth-child(1){
+        margin-bottom: 3rem;
+    }
+
+    .heroImageBox :nth-child(2){
+        margin-bottom: 3rem;
+    }
+
+    .aboutBoxPara{
+        padding-left: 0rem !important;
+    }
+  }
+  
+  /* X-Large devices (large desktops, upto 1200px and above) */
+  /* @media (min-width: 993px) and (max-width: 1200px) */
+  @media (width >=993px) and (width <=1200px) {
+    .grid-3,
+    .grid-4 {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  
+  /* XX-Large devices (larger desktops, upto 1400px and above) */
+  /* @media (min-width: 1200px)  */
+  @media (width >=1200px) {
+    /* write code here */
+  }
+  
