@@ -1,4 +1,37 @@
 
+
+.subHeadingFont{
+    font-family: var(--ffPrimary) !important;
+    font-weight: 700 !important;
+    color: var(--primaryColor) !important;
+    font-size: 1.6rem !important;
+}
+
+.headingFont{
+    font-family: var(--ffPrimary);
+    font-size: 4.8rem;
+    font-weight: 700;
+    color: var(--primaryColor);
+}
+
+
+.regularFont{
+    color: var(--paraFontColor);
+    font-family: var(--ffSecondary);
+    font-size: 1.33rem;
+    line-height: 24px;
+}
+
+
+.normalFont{
+    font-family: var(--ffPrimary) !important;
+    color: var(--paraFontColor) !important;
+    font-size: 1.6rem !important;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
 .topIcon i{
     font-size: 2.6rem;
     color: var(--secondaryColor);
@@ -156,27 +189,6 @@
     border-bottom-left-radius: 40px;
 }
 
-.subHeadingFont{
-    font-family: var(--ffPrimary) !important;
-    font-weight: 700 !important;
-    color: var(--primaryColor) !important;
-    font-size: 1.6rem !important;
-}
-
-.headingFont{
-    font-family: var(--ffPrimary);
-    font-size: 4.8rem;
-    font-weight: 700;
-    color: var(--primaryColor);
-}
-
-
-.regularFont{
-    color: var(--paraFontColor);
-    font-family: var(--ffSecondary);
-    font-size: 1.33rem;
-    line-height: 24px;
-}
 
 .spanText{
     color: var(--primaryColor);
@@ -231,7 +243,7 @@
     color: var(--primaryColor);
 }
 
-.clientsSection{
+.successSection, .teamSection{
     background: linear-gradient(to bottom, #E9E6FF, #FCFCFF);
     border-radius: 40px 40px 0px 0px;
 }
@@ -264,11 +276,77 @@
     box-shadow: rgba(0, 0, 0, 0.8) 10px 7px 0px 0px;
 }
 
+.aimSection .headingBox h2{
+margin-bottom: 7rem !important;
+}
+.aimCard i {
+    border-radius: 5px;
+    background-color: var(--secondaryColor);
+    color: var(--whiteColor);
+}
+
+.clientBox{
+    margin: auto;
+}
+
+.carousel-item{
+    padding: 1rem 7rem;
+}
+
+.carousel-item img{
+    width: auto !important;
+    height: 15rem !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon span { 
+    color: #934b4b;
+}
 
 
+.meetButton{
+    padding: 1.5rem 3rem;
+    background-color: var(--buttonColor);
+    font-family: var(--ffPrimary);
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--whiteColor);
+    border-radius: 18px;
+}
 
+.meetButtonBox{
+    box-shadow :rgb(13, 22, 233) 0px 0px 10px 0px;
+    padding: 0.2rem;
+    border-radius: 18px;
+    width: fit-content;
+}
+/* 
+.teamImageBlock{
+    position: relative;
+} */
 
+.teamImageBox1 {
+    position: relative;
+}
 
+.teamImageBox1 img {
+    position: relative;
+    height: 52rem;
+    width: 100%;
+    bottom: 3rem;
+}
+
+.teamImageBox2 {
+    position: relative;
+}
+
+.teamImageBox2 img {
+    position: relative;
+    height: 40rem;
+    width: 100%;
+    top: 8rem;
+    right: 5rem;
+}
 
 
 
