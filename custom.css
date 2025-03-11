@@ -31,6 +31,13 @@
     line-height: 24px;
 }
 
+.formHeading{
+    font-family: var(--ffPrimary) !important;
+    color: var(--whiteColor) !important;
+    font-size: 4.8rem !important;
+    font-weight: 500;
+    line-height: 24px;
+}
 
 .topIcon i{
     font-size: 2.6rem;
@@ -135,6 +142,18 @@
     box-shadow: rgba(0, 0, 0, 0.8) 10px 7px 0px 0px;
 }
 
+.heroForm{
+    position: relative;
+}
+
+.heroForm .yollowLine{
+    position: absolute;
+    bottom: 12.25rem;
+    margin-left: 1.5rem;
+    height: 4px;
+    width: 20%;
+}
+
 /* .formLine{
     width: 50%;
     height: 2rem;
@@ -197,8 +216,9 @@
 }
 
 .componentSpacing{
-    padding: 6rem 0rem;
+    padding: 6rem 0rem !important;
 }
+
 
 .vendorImage{
     padding-right: 5rem;
@@ -243,7 +263,7 @@
     color: var(--primaryColor);
 }
 
-.successSection, .teamSection{
+.successSection {
     background: linear-gradient(to bottom, #E9E6FF, #FCFCFF);
     border-radius: 40px 40px 0px 0px;
 }
@@ -267,6 +287,17 @@
     color: var(--secondaryColor);
 }
 
+.clientForm{
+    position: relative;
+}
+
+.clientForm .yollowLine{
+    position: absolute;
+    bottom: 12.5rem;
+    margin-left: 1.5rem;
+    height: 4px;
+    width: 20%;
+}
 
 .clientForm{
     background-color: var(--whiteColor);
@@ -325,15 +356,22 @@ margin-bottom: 7rem !important;
     position: relative;
 } */
 
+.teamSection{
+    padding: 15rem 0rem;
+    background-color: var(--bodyColor);
+    border-radius: 40px;
+}
+
 .teamImageBox1 {
     position: relative;
 }
 
 .teamImageBox1 img {
     position: relative;
-    height: 52rem;
-    width: 100%;
+    width: 1188px;
+    aspect-ratio: auto 1188 / 1286;
     bottom: 3rem;
+    border-radius: 40px;
 }
 
 .teamImageBox2 {
@@ -342,25 +380,221 @@ margin-bottom: 7rem !important;
 
 .teamImageBox2 img {
     position: relative;
-    height: 40rem;
-    width: 100%;
-    top: 8rem;
+    /* aspect-ratio: 4/3; */
+    width: 846px;
+    aspect-ratio: auto 846 / 1024;
+    top: 12rem;
     right: 5rem;
+    border-radius: 25px;
+    padding: 0.8rem;
+    background-color: #e9e5ff;
+}
+
+.blogCrad{
+    border-radius: 50px;
+    border: 1px solid #e2e2e2;
+}
+.blogImg{
+    border-radius: 50px;
+    margin-bottom: 3rem;
+}
+
+.blogHeading{
+    font-size: 2rem;
+    font-family: var(--ffQuanternary);
+    font-weight: 800;
+}
+
+.blogHeading :hover{
+    color: var(--secondaryColor);
+}
+
+.formSection {
+    background-color: var(--secondaryColor);
+    border-radius: 40px 40px 0px 0px;
+}
+
+.footerSection .whiteHeading{
+    font-size: 4.8rem;
+    font-weight: 500;
+    font-family: var(--ffPrimary) !important;
+}
+
+.formLine{
+    width: 80%;
+    height: 1px;
+    background-color: #e2e2e2;
+}
+
+.formLine2{
+    width: 80%;
+    height: 3px;
+    background-color: #e2e2e2;
+}
+
+.yollowLine{
+    background-color: var(--yollowLine);
+    width: 35%;
+    height: 3px;
+}
+
+.yollowLine2{
+    background-color: var(--yollowLine);
+    width: 35%;
+    height: 3px;
+}
+
+.formPara{
+    font-family: var(--ffSecondary) !important;
+}
+
+.formList{
+    list-style: none;
+}
+
+.formListLi{
+    font-family: var(--ffTertiary) !important;
+    color: var(--whiteColor);
+    font-weight: 300;
+}
+
+.formList i{
+    color: var(--whiteColor);
+    font-size: 2.2rem;
+}
+
+.contactForm{
+    background-color: var(--whiteColor);
+    padding: 3.5rem 1.8rem;
+    width: 70%;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.8) 10px 7px 0px 0px;
+}
+
+.form-control{
+    padding: 2.5rem !important;
+    border-radius: 18px;
+    width: 100% !important;
+}
+
+.form-control::placeholder{
+    font-size: 1.6rem;
+    color: var(--heroParaColor);
 }
 
 
+.formTitleFont{
+    font-size: 2.8rem;
+    font-weight: 700;
+    font-family: var(--ffPrimary);
+    color: var(--primaryColor);
+}
 
+.FormButton{
+    background-color: var(--primaryColor);
+    padding: 1rem !important;
+    border-radius: 18px;
+}
 
+.FormButton:hover{
+    background-color: var(--secondaryColor);
+}
 
+.FormButton .btn{
+    font-size: 1.2rem;
+    font-family: var(--ffPrimary);
+}
 
+.contactForm .form-group{
+    width: 90%;
+    margin: auto;
+}
 
+.contactForm{
+    position: relative;
+    overflow: visible;
+}
 
+.formImage{
+    position: absolute;
+    bottom: 25rem;
+    right: 3rem;
+    transform: rotate(35deg);
+}
 
+.formImage img{
+    height: 17rem;
+    width: 100%;
+}
 
+.awardTitle h3{
+    font-family: var(--ffPrimary);
+    color: var(--whiteColor) !important;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
 
+.awardImg img{
+   height: 8rem !important;
+}
 
+.registerCardSection{
+    background-color: var(--secondaryColor);
+}
 
+.registerCardbody{
+    border-radius: 40px;
+    margin: 1.5rem !important;
+}
 
+.registerCard img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+}
+
+.registerPara{
+    font-size: 2rem;
+    font-family: var(--ffSecondary) !important;
+    color: var(--primaryColor);
+    font-weight: 500;
+}
+
+.registerPara2{
+    font-size: 2.8rem;
+    font-family: var(--ffPrimary) !important;
+    color: var(--primaryColor);
+    font-weight: 600;
+}
+
+.registerPara3{
+    font-size: 2rem;
+    font-family: var(--ffPrimary) !important;
+    color: var(--primaryColor);
+    font-weight: 700;
+}
+
+.registerCard i{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    font-size: 3rem;
+    border: none;
+    background-color: #f7f7fa;
+}
+
+.registerCardBody3 .registerIcon2{
+    font-size: 1.4rem !important;
+    color: #FF3D2E;
+    background-color: none;
+}
+
+.registerCardBody3 p{
+    font-family: var(--ffTertiary);
+    font-size: 1.6rem;
+    color: var(--paraFontColor);
+    text-transform: uppercase;
+}
 
 
 /* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
@@ -420,6 +654,52 @@ margin-bottom: 7rem !important;
     .clientForm{
         width: 100% !important;
     }
+
+    .meetButton{
+        margin-bottom: 5rem;
+    }
+
+    .teamImageBox1 img {
+        position: relative;
+        width: 1188px;
+        aspect-ratio: auto 1188 / 1286;
+        bottom: 3rem;
+        top: 6rem;
+        border-radius: 40px;
+    }
+    
+    .teamImageBox2 {
+        position: relative;
+    }
+    
+    .teamImageBox2 img {
+        position: relative;
+        /* aspect-ratio: 4/3; */
+        width: 846px;
+        aspect-ratio: auto 846 / 1024;
+        top: 12rem;
+        right: 5rem;
+        border-radius: 25px;
+        padding: 0.8rem;
+        background-color: #e9e5ff;
+    }
+
+    .contactForm{
+        position: relative;
+        overflow: visible;
+    }
+    
+    .formImage{
+        position: absolute;
+        bottom: 30rem;
+        right: 3rem;
+        transform: rotate(35deg);
+    }
+
+    .formImage img{
+        height: 10rem;
+        width: 100%;
+    }
     
   }
   
@@ -465,6 +745,35 @@ margin-bottom: 7rem !important;
 
     .aboutParaBox{
         padding-left: 0rem !important;
+    }
+
+    .meetButton{
+        margin-bottom: 5rem;
+    }
+
+    .teamImageBox1 img {
+        position: relative;
+        width: 1188px;
+        aspect-ratio: auto 1188 / 1286;
+        bottom: 3rem;
+        top: 6rem;
+        border-radius: 40px;
+    }
+    
+    .teamImageBox2 {
+        position: relative;
+    }
+    
+    .teamImageBox2 img {
+        position: relative;
+        /* aspect-ratio: 4/3; */
+        width: 846px;
+        aspect-ratio: auto 846 / 1024;
+        top: 12rem;
+        right: 5rem;
+        border-radius: 25px;
+        padding: 0.8rem;
+        background-color: #e9e5ff;
     }
 
   }
